@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContractAsClassExample.sol": "Sum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContractAsClassExample.sol": {
+			"keccak256": "0x70c234b14050aa8bdcb8096ed0e6d2c6562e9d4ac67406231000688326656c98",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://155b45a70bb26cdf12eb707205eee8ead5ce04af52e554569e2afe66cbff72b9",
+				"dweb:/ipfs/QmemQFNL5tXRravLzWrNUYSEBjC2NzucQmcckeVqBSmAh6"
+			]
+		}
+	},
+	"version": 1
+}

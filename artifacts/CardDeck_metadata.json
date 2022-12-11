@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myCard",
+				"outputs": [
+					{
+						"internalType": "enum CardDeck.Suit",
+						"name": "suit",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum CardDeck.Value",
+						"name": "value",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum CardDeck.Suit",
+						"name": "_suit",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum CardDeck.Value",
+						"name": "_value",
+						"type": "uint8"
+					}
+				],
+				"name": "pick_a_card",
+				"outputs": [
+					{
+						"internalType": "enum CardDeck.Suit",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum CardDeck.Value",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyEnumEample.sol": "CardDeck"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyEnumEample.sol": {
+			"keccak256": "0xe8519e331ab96771f546b6807eb5a589a01ee2ad089008799c05ea8fb87566fc",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://2ae49a63e767cecc3b843a89838e162a32f5f12e3f95807c8763dc9f94a7acd2",
+				"dweb:/ipfs/QmRoGEEL7BJY1fS6n74j8nA44c6Y2crDoJfp5j3cZYkauA"
+			]
+		}
+	},
+	"version": 1
+}
